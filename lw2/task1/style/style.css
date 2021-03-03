@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+}
+@font-face{
+    font-family: Josefin Sans;
+    src: url("font\JosefinSans.ttf");
+    }  
+body{
+    Width:1440px;
+    Height:880px;
+    background-color: white;
+    font-family: Josefin Sans;
+}
+article{
+    color:gray
+}
+.Section-Header{
+    display:flex;
+    flex-direction:column;
+    color:black;
+    top: 80px;
+    right: 40px;
+    left: 40px;
+}
+.header{
+    font-size:86px;
+    font-weight:bold;
+    display:flex;
+    flex-direction:row;
+    color:black;
+}
+.underlined{
+    border-bottom: 10px solid #ff0000ca;
+    margin-left: 32px;
+}
+.section-header article{
+    font-size: 18px;
+}
+.Team-Members{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Team-Members h1{
+    color: black;
+    font-size: 35px;
+}
+.Team-Members article{
+    font-size: 16px;
+}
+img{
+    width: 208px;
+    height: 208px;
+}
+.row-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0px;
+}
+.row-down{
+    display: flex;
+    flex-direction: row;
+}
+.program-left{
+    display: flex;
+    flex-direction: row;
+}
+.program-right{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 388px;
+    height: 148px;
+    left: 24px;
+    top: 0px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    paddi
